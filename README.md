@@ -1,0 +1,3 @@
+# mAMBER
+
+mAMBER is parallel acceleration version of the MD simulation software AMBER. We applied three different level of optimization: fine grained OpenMP parallel on a single CPU, single node CPU-MIC parallel optimization and multi-node multi-MIC collaborated parallel acceleration. By the three optimization methodologies the highest speedup of 5-6 times is achieved compared with the original program.
